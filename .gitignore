@@ -1,0 +1,26 @@
+# Ignore virtual environment directories
+myenv/
+.env/
+
+# Ignore Python bytecode files (e.g. .cpython-310)
+**/*.cpython-*
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other files like IDE configurations, etc.
+.vscode/
+.idea/
+
+# Ignore .env files for secrets
+.env
+
+# Ignore all files except settigs.py
+config/*
+!config/settigs.py
+!config/local_settigs.py
+
+# Ignore output folder
+Sentinel2_data/
