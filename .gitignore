@@ -17,10 +17,5 @@ __pycache__/
 # Ignore .env files for secrets
 .env
 
-# Ignore all files except settigs.py
-config/*
-!config/settigs.py
-!config/local_settigs.py
-
 # Ignore output folder
 Sentinel2_data/
